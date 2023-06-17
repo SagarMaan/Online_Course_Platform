@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.0",
+    "nodemon": "^2.0.22"
+  },
+  "name": "ticket_booking_platform",
+  "description": "JavaScript , MongoDb , NodeJS , Express , JWT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SagarMaan/Online_Course_Platform.git"
+  },
+  "keywords": [],
+  "author": "Sagar Maan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SagarMaan/Online_Course_Platform/issues"
+  },
+  "homepage": "https://github.com/SagarMaan/Online_Course_Platform#readme"
+}
