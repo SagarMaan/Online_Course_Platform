@@ -27,9 +27,8 @@ const administratorSchema = new Schema(
       required: true,
       trim: true,
     },
-  },
-  { timestamps: true }
+  }
 );
 
-const administratorModel = model(Administrators, administratorSchema);
+const administratorModel = model("Administrator", administratorSchema );
 export default administratorModel;

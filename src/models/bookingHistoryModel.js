@@ -25,5 +25,5 @@ const bookingHistorySchema = new Schema (
     }
 )
 
-const bookingHistoryModel = model( Booking_History , bookingHistorySchema )
+const bookingHistoryModel = model( "Booking_History" , bookingHistorySchema )
 export default bookingHistoryModel
