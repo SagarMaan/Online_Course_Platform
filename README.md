@@ -1,4 +1,4 @@
-# Ticket_Bookin_Platform
+# Ticket_Booking_Platform
 JavaScript , MongoDb , NodeJS , Express , JWT
 
 Objective: Build a backend system for a ticket booking application that allows users to search for and book tickets for various events or shows.
@@ -63,5 +63,5 @@ Deploy the backend application on a hosting platform or server of your choice.
 Document the API endpoints and their functionalities, including request/response formats and any required authentication.
 Provide instructions on how to set up and run the application.
 Consider using a web framework like Django, Flask, or Express.js to streamline the development process. You can 
-also use libraries like SQLAlchemy or Mongoose for interacting with the database.
+also use libraries like SQL Alchemy or Mongoose for interacting with the database.
 

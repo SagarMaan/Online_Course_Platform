@@ -2,9 +2,9 @@ import mongoose from "mongoose";
 const { Schema, model } = mongoose;
 
 const eventSchema = new Schema({
-  status: {
-    type: String,
-    enum: ["Administrator", " User", "Visitor"],
+  administratorId: {
+    type: Object,
+    ref: "Administrators",
     required: true,
     trim: true,
   },
@@ -27,16 +27,9 @@ const eventSchema = new Schema({
     required: true,
     trim: true,
   },
-  totalTickets: {
+  ticketAvability: {
     type: Number,
     required: true,
-  },
-  ticketAvability: {
-    type: String,
-    enum: ["Available", "Not Available"],
-  },
-  remainingTickets: {
-    type: Number,
   },
   ticketPrice: {
     type: Number,
