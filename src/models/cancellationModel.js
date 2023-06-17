@@ -27,5 +27,5 @@ const cancellationSchema = new Schema (
     }
 )
 
-const cancellationModel = model ( Ticket_Cancellation , cancellationSchema )
+const cancellationModel = model ( "Ticket_Cancellation" , cancellationSchema )
 export default cancellationModel

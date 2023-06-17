@@ -35,5 +35,5 @@ const ticketSchema = new Schema({
   },
 });
 
-const ticketModel = model(Tickets, ticketSchema);
+const ticketModel = model("Tickets", ticketSchema);
 export default ticketModel;

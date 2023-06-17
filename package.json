@@ -8,12 +8,13 @@
     "nodemon": "^2.0.22"
   },
   "name": "ticket_booking_platform",
-  "description": "JavaScript , MongoDb , NodeJS , Express , JWT",
+  "description": "JavaScript , MongoDb , NodeJS , Express , JWT",  
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.mjs",
+  "type" : "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon index.mjs"
   },
   "repository": {
     "type": "git",
