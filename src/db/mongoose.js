@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
  
 
-
 export const startserver= async(app,PORT,URL)=> {
     try {
        await mongoose.connect(URL)
